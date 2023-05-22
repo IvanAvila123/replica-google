@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    
+}
+
+.container-header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+    
+}
+
+.menu{
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-around;
+    
+    
+}
+
+.menu img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+
+.menu a{
+    margin-top: 10px;
+}
+
+.container-logo{
+
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+#google{
+    width: 280px;
+    height: 150px;
+}
+
+.container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#input-search{
+display: flex;
+height: 50px;
+width: 630px;
+border-radius: 50px;
+border: 1px solid #d3d3d3;
+position: relative;
+padding-left: 60px;
+
+
+}
+
+#input-search:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+  #input-search:focus {
+    outline: none;
+  }
+
+
+.buscar{
+    display: flex;
+    margin-right: 630px;
+    position: absolute;
+    border-radius: 50px;
+    border: transparent;
+    background-color: transparent;
+}
+
+
+.microfono{
+    display: flex;
+    position: absolute;
+    margin-left: 550px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.camara{
+    display: flex;
+    position: absolute;
+    margin-right: -630px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.container-suerte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.buscar-google{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa ;
+    border-color: transparent;
+    font-size: 14px;
+}
+
+.buscar-google:hover{
+
+    border: 1px solid #70757a;
+}
+
+.suerte{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f8f9fa ;
+    border-color: transparent;
+    font-size: 14px;
+}
+
+.suerte:hover{
+
+    border: 1px solid #70757a;
+}
+
+.container-lenguaje{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.google{
+    display: inline-block;
+    color: #4d5156;
+    font-size: 13px;
+}
+
+.idioma{
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+footer{
+
+    background-color: #ECE7E6;
+    height: 120px;
+}
+
+.footer-nac{
+    margin-top: 140px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 12px;
+    color: #70757a;
+    
+}
+
+.footer-google{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ECE7E6;
+}
+
+.link{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #70757a;
+    
+}
+
+.link:hover{
+
+    border-bottom: 1px solid #4d5156;
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    /* Estilos para pantallas con un ancho mínimo de 376px y máximo de 667px */
+    header {
+        height: 50px;
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .menu{
+        display: flex;
+        width: 200px;
+        justify-content: space-around;
+        
+        
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .container-header{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    
+        
+    }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .menu img{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: -10px;
+        
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    #google{
+        width: 190px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    #google{
+        width: 190px;
+        height: 130px;
+    }
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .buscar{
+        display: flex;
+        margin-right: 300px;
+        position: absolute;
+        border-radius: 50px;
+        border: transparent;
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .microfono{
+        display: flex;
+        position: absolute;
+        margin-left: 230px;
+        border-radius: 50px;
+        border: transparent;
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 667px) {
+    .camara{
+        display: flex;
+        position: absolute;
+        margin-right: -300px;
+        border-radius: 50px;
+        border: transparent;
+        background-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
